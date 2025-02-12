@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    border-bottom: 350px solid rgba(255, 255, 255, 0.08);
+    background: radial-gradient(
+      circle at center,
+      rgba(255, 255, 255, 0.35) 10%,
+      rgba(0, 0, 0, 0) 80%
+    );
+    filter: blur(12px);
+    box-shadow: inset 0 0 80px 40px rgba(255, 255, 255, 0.15);
+    z-index: 1;
+  }
+
+  
