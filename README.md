@@ -33,4 +33,4 @@ This app helps you match a source image with images from a collection, it will h
    - If any matching images are found, they will be listed with their file names.
  
 ## Demo
-https://github.com/user-attachments/assets/134d7251-bfa8-442e-9b7c-2c620ec6ea1c
+https://github.com/user-attachments/assets/fffb3bd8-65fa-42ef-81ee-4c283c3eae1e
